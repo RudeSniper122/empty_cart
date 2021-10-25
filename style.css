@@ -15,7 +15,10 @@ body{
   font-family: sans-serif;
 }
 .mainContent{
-  /* text-align: center; */
+  height: 82.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 
@@ -65,7 +68,7 @@ body{
   font-weight: bold;
 }
 .lightText{
-  margin-top: 40px;
+  margin-top: 30px;
   color: #5c5c5c;
   font-size: 35px;
   /* font-weight: 600; */
@@ -75,7 +78,7 @@ body{
 .btn{
   /* margin: 30px 30px 0; */
   text-align: center;
-  margin: 130px auto 0;
+  margin: 140px auto 190px;
   background-color: var(--nav);
   padding: 40px 0;
   border-radius: 60px;
